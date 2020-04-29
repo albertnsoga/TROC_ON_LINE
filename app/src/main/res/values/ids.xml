@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editFAB" type="id" />
+    <item name="description_troc" type="id" />
+    <item name="mCollapsingToolbarLayout" type="id" />
+    <item name="mImageView" type="id" />
+    <item name="descriptionTxt" type="id" />
+    <item name="nameTxt" type="id" />
+    <item name="closeTrocCard" type="id" />
+    <item name="addTrocCard" type="id" />
+    <item name="viewTrocCard" type="id" />
+    <item name="third" type="id" />
+</resources>

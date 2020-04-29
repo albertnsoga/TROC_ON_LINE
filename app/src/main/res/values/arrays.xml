@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>@color/cadet_blue</item>
+        <item>@color/cardview_dark_background</item>
+        <item>@color/aqua</item>
+        <item>@color/royal_blue</item>
+        <item>@color/_light_green</item>
+        <item>@color/antique_white</item>
+        <item>@color/aquamarine</item>
+        <item>@color/azure</item>
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+        <item>@color/yellow_green</item>
+        <item>@color/deep_pink</item>
+
+
+    </array>
+</resources>

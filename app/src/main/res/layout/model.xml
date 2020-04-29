@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+
+
+    tools:context=".Views.DetailActivity">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+	
+	  <RelativeLayout
+            android:id="@+id/iconSection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+			
+    <com.github.ivbaranov.mli.MaterialLetterIcon
+        android:id="@+id/mMaterialLetterIcon"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+		android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp" />
+		</RelativeLayout>
+
+            <TextView
+                android:id="@+id/mNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                android:text="Troc's Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#009968"
+                />
+            <TextView
+                android:id="@+id/mDescriptionTxt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+
+                android:padding="5dp"
+                android:text="@string/Troc_Description"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"/>
+
+
+
+</RelativeLayout>
+
+    </androidx.cardview.widget.CardView>

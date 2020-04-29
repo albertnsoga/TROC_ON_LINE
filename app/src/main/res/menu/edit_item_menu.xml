@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_menu_item"
+        android:title="Save"
+        android:icon="@drawable/m_done"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/delete_menu_item"
+        android:title="Delete"
+        android:icon="@drawable/m_delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/viewAllMenuItem"
+        android:title="View All"
+        android:icon="@drawable/m_list"
+        app:showAsAction="ifRoom"
+        />
+</menu>
